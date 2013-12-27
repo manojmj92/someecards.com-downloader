@@ -36,7 +36,7 @@ class DonwloadThread(threading.Thread):
          try:
 
                 if not os.path.exists(category_dir):
-                        print "Making New Directory for Category "+self.category
+                        print "Making New Directory for Category "+self.category+"\n"
                         os.makedirs(category_dir)
          except:
             pass
@@ -54,7 +54,7 @@ class DonwloadThread(threading.Thread):
 
 
             if not main_url_soup.find_all('a',{'class':'cardthumb'}):
-                print "Finished downloading all cards in category " + category_name +" and page no " + str(pageno)
+                print " Page no " + str(pageno) +" of " + category_name + "is blank \n"
                 break
 
             duplicate_counter = 0
