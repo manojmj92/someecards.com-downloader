@@ -1,12 +1,12 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        Someecards Downloader
 # Purpose:
 #
-# Author:      hp
+# Author:      Manoj M J
 #
 # Created:
-# Copyright:   (c) hp
-# Licence:     <your licence>
+# Copyright:  www.manojmj.com
+# Licence:    
 #-------------------------------------------------------------------------------
 
 from bs4 import BeautifulSoup
